@@ -66,11 +66,14 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.material3:material3:1.1.1")
+    androidTestImplementation("androidx.test:runner:1.2.0")
 
     // Hilt dependency for dependency injection
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01")
+    implementation("androidx.test.ext:junit-ktx:1.2.1")
+
 
     // Room dependency
     val roomVersion = "2.5.2"
